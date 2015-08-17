@@ -1,0 +1,23 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
+
+
+// The number of lattice points for a side of the cloth square.
+#define kSide 40
+// The total number of lattice points for the square lattice.
+#define kNumberParticles (kSide * kSide)
+// The total number of triangles defined by the lattice points.
+#define kNumberTriangles (2 * (kSide - 1) * (kSide - 1))
+// The total number of floating point values defining the lattice.
+#define kNumberFloats (3 * kNumberParticles)
+// The effective size of the block beneath the cloth.
+#define ztable -kSide / 2
+
+
