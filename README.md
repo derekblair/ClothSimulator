@@ -1,6 +1,8 @@
 # ClothSimulator
 A native OSX app that demonstrates real time cloth simulation using OpenGL and advanced algorithms.
 
+![screenshot](cloth.png)
+
 ##Algorithm
 
 The alorithms used for the cloth simulation are based on the following paper
