@@ -3,7 +3,7 @@
 //  ClothSimulator
 //
 //  Created by Derek Blair on 2015-08-16.
-//  Copyright (c) 2015 Derek Blair. All rights reserved.
+//  Copyright (c) 2018 Derek Blair. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
