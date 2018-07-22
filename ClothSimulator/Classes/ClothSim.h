@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface ClothSim : NSObject
+@interface ClothSim: NSObject
 
 - (void)stepForewardClothSimulation;
 - (void)setupClothSimulation;

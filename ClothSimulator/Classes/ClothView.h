@@ -8,7 +8,7 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface ClothView : NSOpenGLView
+@interface ClothView: NSOpenGLView
 
 - (IBAction)windChanged:(NSSlider *)sender;
 - (IBAction)cameraHeightChanged:(NSSlider *)sender;
